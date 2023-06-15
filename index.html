@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <div class="container clearfix">
+        
+        <div class="product-categories">
+            <h3 class="product-categories_title">Категорії товарів</h3>
+            <ul class="product-menu" id="pm">
+                <li id="c1">Кошачий корм</li>
+                <li id="d2">Собачий корм</li>
+                <li id="b3">Пташиний корм</li>
+            </ul>
+        </div>
+
+        <div class="product-list" id="pl">
+            <h3 class="product-list_title">Список товарів</h3>
+
+        <div class="product-list_2" id="pl2">
+            <div class="cats" style="display: none; flex-direction: column;">
+            <div class="selectedCategory_cats q1" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/fpaws.jpg" alt="" class="img1">
+                <h4>Club 4 Paws</h4>
+                <ul>
+                    <li>price: 284 грн,</li>
+                    <li>type: Сухий корм,</li>
+                    <li>weight: 2 кг,</li>
+                    <li>appointment: Для кішок з проблемами шкіри та шерсті,</li>
+                    <li>class: Преміум,</li>
+                    <li>age: Від 12 міс.</li>
+                </ul>
+            </div>
+
+            <div class="selectedCategory_cats q2" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/purina.jpg" alt="" class="img2">
+                <h4>Purina Pro Plan</h4>
+                <ul>
+                    <li>price: 564 грн,</li>
+                    <li>type: Сухий корм,</li>
+                    <li>weight: 1.5 кг,</li>
+                    <li>appointment: Для кішок з проблемами шкіри та шерсті,</li>
+                    <li>class: Суперпреміум,</li>
+                    <li>age: Від 12 міс.</li>
+                </ul>
+            </div>
+
+            <div class="selectedCategory_cats q3" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/britcare.jpg" alt="" class="img3">
+                <h4>Brit Care Cat</h4>
+                <ul>
+                    <li>price: 221 грн,</li>
+                    <li>type: Сухий корм,</li>
+                    <li>weight: 400 г,</li>
+                    <li>appointment: Для стерилізованих кішок,</li>
+                    <li>class: Суперпреміум,</li>
+                    <li>age: 12 міс. - 7 років</li>
+                </ul>
+            </div>
+        </div>
+            
+
+
+        <div class="dogs" style="display: none; flex-direction: column;">
+            <div class="selectedCategory_dogs q1_1" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/fpawsdogs.jpg" alt="" class="img1_1">
+                <h4>Club 4 Paws</h4>
+                <ul>
+                    <li>price: 607 грн,</li>
+                    <li>type: Сухий корм,</li>
+                    <li>weight: 5 кг,</li>
+                    <li>appointment: Для стерилізованих собак,</li>
+                    <li>class: Преміум,</li>
+                    <li>age: Для дорослих собак на всіх стадіях життя.<div class=""></div></li>
+                </ul>
+            </div>
+
+            <div class="selectedCategory_dogs q2_2" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/pedigree.jpg" alt="" class="img2_2">
+                <h4>Pedigree</h4>
+                <ul>
+                    <li>price: 564 грн,</li>
+                    <li>type: Сухий корм,</li>
+                    <li>weight: 8.4 кг,</li>
+                    <li>breed: Середні,</li>
+                    <li>class: Преміум,</li>
+                    <li>age: Від 1 року.</li>
+                </ul>
+            </div>
+
+            <div class="selectedCategory_dogs q3_3" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/canibaq.jpg" alt="" class="img3_3">
+                <h4>Canibaq</h4>
+                <ul>
+                    <li>price: 999 грн,</li>
+                    <li>type: Сухий корм,</li>
+                    <li>weight: 15 кг,</li>
+                    <li>appointment: Для активних собак,</li>
+                    <li>class: Економ,</li>
+                    <li>age: Для дорослих собак на всіх стадіях життя.</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="birds" style="display: none; flex-direction: column;">
+            <div class="selectedCategory_birds q1_1_1" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/prestige.jpg" alt="" class="img1_1_1">
+                <h4>Versele-Laga Prestige</h4>
+                <ul>
+                    <li>price: 243 грн,</li>
+                    <li>compound: Біле насіння соняшника 27%, смугасте насіння соняшника 27%, пшениця 6%, кукурудза 6%, гострий овес 5%, сафлор 5%, серцевина арахісу 5%, очищений арахіс 4%, сорго 3%, гречана крупа 3%, конопляне насіння 3%, попкорн 2%, неочищений рис 2%, кедрові горіхи 2%.,</li>
+                    <li>weight: 1 кг,</li>
+                    <li>appointment: Великі папуги,</li>
+                    <li>class: Звичайний,</li>
+                    <li>kind of parrot: Амазон, Ара, Жако, Какаду.</li>
+                </ul>
+            </div>
+
+            <div class="selectedCategory_birds q2_2_2" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/vitakraft.jpg" alt="" class="img2_2_2">
+                <h4>Vitakraft Menu Vital</h4>
+                <ul>
+                    <li>price: 135 грн,</li>
+                    <li>series: Повсякденний,</li>
+                    <li>weight: 500 г,</li>
+                    <li>appointment: Дрібні папуги,</li>
+                    <li>class: Звичайний,</li>
+                    <li>kind of parrot: Хвилястий.</li>
+                </ul>
+            </div>
+
+            <div class="selectedCategory_birds q3_3_3" style="width: 200px; margin-bottom: 15px;">
+                
+                <img src="img/karmeo.jpg" alt="" class="img3_3_3">
+                <h4>Vitapol Karmeo</h4>
+                <ul>
+                    <li>price: 798 грн,</li>
+                    <li>compound: Біле насіння соняшника, насіння соняшника смугастого, боби, сорго червоне, кукурудзяне борошно, сорго біле, гарбузове насіння, сушена морква, сушений буряк, очищений арахіс, квасолеві пластівці, кукурудзяні пластівці, сушені плоди троянди, сушені плоди глоду, горохові пластівці, банан сушений, пшеничне борошно, насіння шафрану, насіння конопель, арахіс, сушений перець чилі,</li>
+                    <li>weight: 2.5 кг,</li>
+                    <li>appointment: Великі папуги,</li>
+                    <li>class: Звичайний,</li>
+                    <li>kind of parrot: Ара, Жако, Какаду.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="product-description" id="pd">
+        <h3 class="product-description_title">Опис обраного товару</h3>
+        <div class="product-description_buy">
+            <button class="mybtn" style="display: none;">Купити</button>
+        </div>
+    </div>
+    </div>
+<div style="width: 1200px; margin: 0 auto; border: 16px solid purple; padding: 40px 20px;">
+    <div class="myTable" id="mytb">
+        <form class="form-group" action="#" style="display: none;" onchange="">
+
+            <h1>Форма для реєстрації</h1>
+            <input name="username" id="name" type="text" required placeholder="Введіть ім'я" pattern="[a-zA-Zа-яА-ЯёЁ ]+" minlength="4" maxlength="10">
+            <input name="usersurname" id="surname" type="text" required placeholder="Введіть прізвище" pattern="[a-zA-Zа-яА-ЯёЁ ]+" minlength="4" maxlength="10">
+            <input name="usersurname2" id="surname2" type="text" required placeholder="Введіть ім'я по батькові" pattern="[a-zA-Zа-яА-ЯёЁ ]+" minlength="4" maxlength="10">
+
+            <input name="npdepartment" id="np" type="text" required placeholder="Введіть відділення нп" minlength="4" maxlength="10"><br>
+            <input  type="radio" name="payplace" id="payplace1" required>
+            <label  for="payplace1" style="display: inline-block;">Після оплати</label><br>
+            <input  type="radio" name="payplace" id="payplace2" required>
+            <label  for="payplace2" class="payplacelab">Оплатити карткою</label><br>
+            <input name="amount" id="county" type="number" value="" style="width: 30px;">
+            <label name="" for="amountofprod">Кількість продукції</label>
+
+            <textarea name="commentarea" id="commentarea" cols="30" rows="3"></textarea>
+
+            <input id="submit" type="submit" required >
+    
+        </form>
+        
+        <!-- <input id="county3" type="number" value="" style="width: 30px;"> -->
+        <table id="my-table" style="display: none;"> 
+            <tr>
+                <td>Ім'я</td>
+                <td name="username" id="usname" class="tdname"></td>
+            </tr>
+            <tr>
+                <td>Прізвище</td>
+                <td name="usersurname" id="ussname" class="tdsurname"></td>
+            </tr>
+            <tr>
+                <td>По батькові</td>
+                <td name="usersurname2" id="ussname2" class="tdsurname2"></td>
+            </tr>
+            <tr>
+                <td>Відділення НП</td>
+                <td name="npdepartment" id="npdep" class="tdnp"></td>
+            </tr>
+            <tr>
+                <td class="tdpp">Після оплати</td>
+                <td name="payplace" id="paypl" class="tdpayplace1"></td>
+            </tr>
+            <tr>
+                <td>Кількість продукції</td>
+                <td name="amount" id="amo" class="tdamount"></td>
+            </tr>
+            <tr>
+                <td>Товар який купується</td>
+                <td name="product" id="prod" class="tdprod"></td>
+            </tr>
+            <tr>
+                <td>Орієнтовна дата отримання</td>
+                <td name="date" id="dat" class="tddate"></td>
+            </tr>
+        </table> 
+    </div>
+    <button class="mybtnfororder" id="mybtnfororder">ТЫЦ</button>
+    <div class="orders" id="orders">
+
+    </div>
+
+    <div class="orders2" id="orders2" style="display: none; flex-direction: column;">
+        
+    </div>
+    
+</div>
+    <script src="script.js">
+    document.querySelectorAll('form').submit(function (e) {
+        e.preventDefault();
+    });
+
+    </script>
+</body>
+</html>
